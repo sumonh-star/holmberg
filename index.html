@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="w-screen m-0 p-0 overflow-x-hidden scroll-smooth" data-html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holmberg</title>
+    <!-- =======link-favicon====== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- ====link-remixicon-cnd====== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- =====link-swiper-css===== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- ====link-tailwind-css===== -->
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="w-screen m-0 p-0 overflow-x-hidden" id="body">
+    <!-- ===header-section==== -->
+    <header class="bg-white pb-14 px-4 dark:bg-darkBlack">
+        <div class="container mx-auto">
+            <!-- ====navigation-logo-menu-btn====== -->
+            <nav class="flex items-center justify-between py-4 duration-300" data-nav>
+                <a href="#" class="sm:w-1/2 md:w-fit">
+                    <img src="images/logo.png" class="w-[100px] sm:w-32 md:w-52 block dark:hidden">
+                    <img src="images/footer-logo.png" class="w-[100px] sm:w-32 md:w-52 dark:block hidden">
+                </a>
+                <div class="w-0 lg:w-6/12 duration-300 lg:scale-100 scale-0" data-menu>
+                    <span class="absolute top-3 right-6 cursor-pointer hover:rotate-90 duration-300 lg:hidden" data-close-menu><i class="ri-close-line text-grayWhite text-3xl"></i></span>
+                    <ul class="xl:gap-x-12 lg:gap-x-8 list-none flex">
+                        <li><a href="#" class="link text-brightRed">Home</a></li>
+                        <li><a href="#" class="link">About</a></li>
+                        <li><a href="#" class="link">Category</a></li>
+                        <li><a href="#" class="link">Testimonial</a></li>
+                        <li><a href="#" class="link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-center">
+                    <span class="cursor-pointer mr-2 sm:mr-4 block dark:hidden hover:scale-110 duration-200" data-dark-enable><i class="ri-moon-fill text-grayBlack text-2xl"></i></span>
+                    <span class="cursor-pointer mr-2 sm:mr-4 hidden dark:block hover:scale-110 duration-200" data-dark-disable><i class="ri-sun-fill text-grayWhite text-2xl"></i></span>
+                    <a href="#" class="primary-btn">Sign Up Now</a>
+                    <span class="cursor-pointer ml-3 lg:hidden" data-open-menu><i class="ri-menu-fill text-grayBlack text-2xl dark:text-grayWhite"></i></span>
+                </div>
+            </nav>
+            <!-- =====banner-section===== -->
+            <div class="flex justify-between items-center py-16 md:flex-row flex-col-reverse gap-y-6 lg:gap-y-0 md:gap-x-6 lg:gap-x-0">
+                <div class="w-full lg:w-1/2">
+                    <h3 class="lg:text-5xl text-gray-800 font-bold w-full lg:max-w-lg mb-3 lg:mb-6 text-2xl dark:text-grayWhite">Everything for your remote meetings all in one place</h3>
+                    <p class="text-lg text-gray-800 font-normal max-w-md mb-4 dark:text-grayWhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit malesuada vitae varius velit sem. Aliquet sapien vel lacus purus sit. At.</p>
+                    <a href="#" class="primary-btn">Download The Theme</a>
+                </div>
+                <!-- ===banner-video=== -->
+                <div class="w-full lg:w-1/2 h-max"><a href="#" class="w-full h-full relative rounded-3xl"><img class="w-full h-auto rounded-3xl" src="images/header-image.jpg"><span class="w-16 h-16 bg-darkYellow rounded-full flex justify-center items-center absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 shadow-[0_0_20px_#FFBD2F] animate-pulse"><i class="ri-play-fill text-grayWhite text-4xl"></i></span></a></div>
+            </div>
+        </div>
+    </header>
+   <!-- ====all-section==== -->
+    <section class="w-screen bg-darkGreen relative -mt-12 px-4">
+        <img src="images/main-background-shape-style.png" class="hidden md:block absolute w-full h-16 left-0 -top-12">
+        <img src="images/main-background-shape-style-2.png" class="block md:hidden absolute w-full h-16 left-0 -top-12">
+        <div class="container mx-auto text-center">
+             <!-- =====card-section====== -->
+            <div class="mt-10 pb-8  h-max">
+                <h3 class="pt-12 text-grayWhite font-bold lg:text-4xl capitalize mb-6 text-2xl">collaborative workspace for Every <br class="md:block hidden">
+                    each meeting For easy access</h3>
+                <p class="text-grayWhite text-base font-normal mb-6 relative z-10">Lorem ipsum dolor sit amet, consectetur adipiscing. <br class="lg:block hidden">
+                    egestas  viverra id aliquet. vulputate egestas sollicitudin .</p>
+                <!-- ===card-box=== -->
+                <div class="flex items-center justify-center flex-wrap md:gap-x-12 gap-y-4 pt-4 relative gap-x-4">
+                    <div class="sm:w-[230px] md:w-[280px] h-[340px] bg-brightRed flex items-center justify-center flex-col gap-y-3 rounded-xl p-4 hover:animate-pulse relative z-10">
+                        <span class="w-12 h-12 bg-darkGreen flex items-center justify-center rounded-md"><i class="ri-notification-3-fill text-grayWhite text-lg"></i></span>
+                        <h4 class="text-grayWhite text-2xl">Focus only value On Real activities</h4>
+                        <p class="text-grayWhite text-base">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                    </div>
+    
+                    <div class="sm:w-[230px] md:w-[280px] h-[340px] bg-darkYellow flex items-center justify-center flex-col gap-y-3 rounded-xl p-4 hover:animate-pulse  relative z-10">
+                        <span class="w-12 h-12 bg-darkGreen flex items-center justify-center rounded-md"><i class="ri-link-unlink text-grayWhite text-lg"></i></span>
+                        <h4 class="text-grayWhite text-2xl">Manage your works effortlessly</h4>
+                        <p class="text-grayWhite text-base">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                    </div>
+    
+                    <div class="sm:w-[280px] h-[340px] bg-darkBlue flex items-center justify-center flex-col gap-y-3 rounded-xl p-4 hover:animate-pulse  relative z-10">
+                        <span class="w-12 h-12 bg-darkGreen flex items-center justify-center rounded-md"><i class="ri-tv-line text-grayWhite text-lg"></i></span>
+                        <h4 class="text-grayWhite text-2xl">Decisions with impact make data driven </h4>
+                        <p class="text-grayWhite text-base">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                    </div>
+                    <img src="images/style (2).png" class="absolute -left-10 hidden md:block max-w-[260px]">
+                    <img src="images/style (3).png" class="absolute -right-8 hidden md:block max-w-[340px]">
+                </div>
+            </div>
+            <!-- ====schedule-tool-section===== -->
+            <div class="py-10">
+                <h3 class="text-grayWhite lg:text-4xl text-center text-2xl">We know Happy Schedule is tool <br class="md:block hidden"> because we use every day</h3>
+                <!-- ===shedule-box=== -->
+                <div class="px-8 flex items-center flex-wrap justify-between mt-6 gap-y-12">
+                    <div class="md:w-[48%] lg:w-[30%] flex items-start gap-4 w-full">
+                        <span class="text-4xl text-darkYellow">01</span>
+                        <div class="text-left">
+                            <h5 class="text-grayWhite text-xl font-medium mb-2">Manage your works <br>
+                                effortlessly</h5>
+                            <p class="text-grayWhite font-light text-base opacity-70">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                        </div>
+                    </div>
+
+                    <div class="md:w-[48%] lg:w-[30%] flex items-start gap-4 w-full">
+                        <span class="text-4xl text-darkYellow">02</span>
+                        <div class="text-left">
+                            <h5 class="text-grayWhite text-xl font-medium mb-2">Manage your works <br>
+                                effortlessly</h5>
+                            <p class="text-grayWhite font-light text-base opacity-70">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                        </div>
+                    </div>
+
+                    <div class="md:w-[48%] lg:w-[30%] flex items-start gap-4 w-full">
+                        <span class="text-4xl text-darkYellow">03</span>
+                        <div class="text-left">
+                            <h5 class="text-grayWhite text-xl font-medium mb-2">Manage your works <br>
+                                effortlessly</h5>
+                            <p class="text-grayWhite font-light text-base opacity-70">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                        </div>
+                    </div>
+
+                    <div class="md:w-[48%] lg:w-[30%] flex items-start gap-4 w-full">
+                        <span class="text-4xl text-darkYellow">04</span>
+                        <div class="text-left">
+                            <h5 class="text-grayWhite text-xl font-medium mb-2">Manage your works <br>
+                                effortlessly</h5>
+                            <p class="text-grayWhite font-light text-base opacity-70">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                        </div>
+                    </div>
+
+                    <div class="md:w-[48%] lg:w-[30%] flex items-start gap-4 w-full">
+                        <span class="text-4xl text-darkYellow">05</span>
+                        <div class="text-left">
+                            <h5 class="text-grayWhite text-xl font-medium mb-2">Manage your works <br>
+                                effortlessly</h5>
+                            <p class="text-grayWhite font-light text-base opacity-70">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                        </div>
+                    </div>
+
+                    <div class="md:w-[48%] lg:w-[30%] flex items-start gap-4 w-full">
+                        <span class="text-4xl text-darkYellow">06</span>
+                        <div class="text-left">
+                            <h5 class="text-grayWhite text-xl font-medium mb-2">Manage your works <br>
+                                effortlessly</h5>
+                            <p class="text-grayWhite font-light text-base opacity-70">Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,  aliquet cursus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- =====progress-section====== -->
+            <div class="flex items-center justify-between flex-wrap py-8 relative">
+                <!-- ===progress-text=== -->
+                <div class="w-full md:w-[48%] lg:w-[37%] flex items-start justify-center gap-y-6 flex-col">
+                    <div class="py-4 px-6 bg-grayGreen flex items-start gap-4 rounded-xl hover:translate-x-2 duration-300 cursor-pointer">
+                        <div class="bg-darkGreen w-[35px] h-[35px] rounded-full grid items-center"><span class="text-base text-grayWhite font-semibold">1</span></div>
+                        <div class="text-left">
+                            <h5 class="text-base text-grayWhite font-normal mb-2">Decisions with impact make data </h5>
+                            <p class="text-sm text-grayWhite font-light opacity-70">Lorem ipsum dolor sit amet, consesctgetur adipiscing elit. Sit malesuaa vitae varius vem</p>
+                        </div>
+                    </div>
+
+                    <div class="py-4 px-6 bg-grayGreen flex items-start gap-4 rounded-xl hover:translate-x-2 duration-300 cursor-pointer">
+                        <div class="bg-darkYellow w-[35px] h-[35px] rounded-full grid items-center"><span class="text-base text-grayWhite font-semibold">2</span></div>
+                        <div class="text-left">
+                            <h5 class="text-base text-grayWhite font-normal mb-2">Focus only value On Real activities </h5>
+                            <p class="text-sm text-grayWhite font-light opacity-70">Lorem ipsum dolor sit amet, consesctgetur adipiscing elit. Sit malesuaa vitae varius vem</p>
+                        </div>
+                    </div>
+
+                    <div class="py-4 px-6 bg-grayGreen flex items-start gap-4 rounded-xl hover:translate-x-2 duration-300 cursor-pointer relative z-10">
+                        <div class="bg-brightRed w-[35px] h-[35px] rounded-full grid items-center"><span class="text-base text-grayWhite font-semibold">3</span></div>
+                        <div class="text-left">
+                            <h5 class="text-base text-grayWhite font-normal mb-2">Manage your works effortlessly </h5>
+                            <p class="text-sm text-grayWhite font-light opacity-70">Lorem ipsum dolor sit amet, consesctgetur adipiscing elit. Sit malesuaa vitae varius vem</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ====progress-tool==== -->
+                <div class="w-full md:w-[50%] lg:w-[60%] h-fit p-8 rounded-xl flex items-start justify-between flex-col gap-6 relative z-10">
+                    <div class="flex justify-between w-full"> <p class="text-grayWhite text-sm font-normal">New Visitor</p> <span class="text-grayWhite text-sm font-light opacity-60">Last Week</span></div>
+                    <img src="images/progress-tool.png" class="w-full h-">
+                    <div class="flex justify-between w-full"> <p class="text-grayWhite text-sm font-normal">View Full Analytice</p> <span class="text-darkBlue space-x-1 text-sm font-light opacity-60"><i class="ri-checkbox-blank-circle-fill"></i><i class="ri-checkbox-blank-circle-fill"></i><i class="ri-checkbox-blank-circle-fill"></i></span></div>
+                </div>
+                <img src="images/style (1).png" class=" max-w-[200px] absolute -right-16 top-1/2 -translate-y-1/2">
+            </div>
+            <!-- =====testimonial-section===== -->
+            <div class="w-full py-4">
+                <h4 class="text-center lg:text-4xl text-grayWhite font-bold mb-8 text-2xl">Our Customers Have Nice <br class="md:block hidden">
+                    Things To Say About Us</h4>
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide flex justify-center items-center md:flex-row flex-col space-x-12 pb-7 lg:pb-0 overflow-hidden">
+                            <div class="w-full lg:w-4/12 relative md:1/2">
+                                <div class="w-full min-h-[400px] relative bg-no-repeat bg-cover bg-center z-10" style="background-image: url('images/Vector.png');">
+                                    <img src="images/avatar.png" class="max-w-[300px] absolute bottom-12 left-1/2 -translate-x-1/2">
+                                </div>
+                                <img src="images/style (5).png" class="max-w-[235px] absolute top-0 -left-20">
+                                <img src="images/style (5).png" class="max-w-[235px] absolute -right-12 bottom-0">
+                            </div>
+                            <div class="w-full lg:w-4/12 text-left">
+                                <i class="ri-double-quotes-l text-darkYellow text-7xl"></i>
+                                <p class="text-grayWhite text-base opacity-70 font-light">"Dealing with sickle cell has been a lifelong rollercoaster. The thought of my voice being heard in the world of medicine is really what motivated me to join this study. Not only to advocate for myself but” </p>
+                                <h6 class="text-grayWhite text-base font-semibold my-2">Jhony Bravo</h6>
+                                <span class="text-base text-grayWhite font-light">CEO, THEMEFISHER</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide flex justify-center items-center md:flex-row flex-col space-x-12 pb-7 lg:pb-0 overflow-hidden">
+                            <div class="w-full lg:w-4/12 relative md:1/2">
+                                <div class="w-full min-h-[400px] relative bg-no-repeat bg-cover bg-center z-10" style="background-image: url('images/Vector.png');">
+                                    <img src="images/avatar.png" class="max-w-[300px] absolute bottom-12 left-1/2 -translate-x-1/2">
+                                </div>
+                                <img src="images/style (5).png" class="max-w-[235px] absolute top-0 -left-20">
+                                <img src="images/style (5).png" class="max-w-[235px] absolute -right-12 bottom-0">
+                            </div>
+                            <div class="w-full lg:w-4/12 text-left">
+                                <i class="ri-double-quotes-l text-darkYellow text-7xl"></i>
+                                <p class="text-grayWhite text-base opacity-70 font-light">"Dealing with sickle cell has been a lifelong rollercoaster. The thought of my voice being heard in the world of medicine is really what motivated me to join this study. Not only to advocate for myself but” </p>
+                                <h6 class="text-grayWhite text-base font-semibold my-2">Jhony Bravo</h6>
+                                <span class="text-base text-grayWhite font-light">CEO, THEMEFISHER</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide flex justify-center items-center md:flex-row flex-col space-x-12 pb-7 lg:pb-0 overflow-hidden">
+                            <div class="w-full lg:w-4/12 relative md:1/2">
+                                <div class="w-full min-h-[400px] relative bg-no-repeat bg-cover bg-center z-10" style="background-image: url('images/Vector.png');">
+                                    <img src="images/avatar.png" class="max-w-[300px] absolute bottom-12 left-1/2 -translate-x-1/2">
+                                </div>
+                                <img src="images/style (5).png" class="max-w-[235px] absolute top-0 -left-20">
+                                <img src="images/style (5).png" class="max-w-[235px] absolute -right-12 bottom-0">
+                            </div>
+                            <div class="w-full lg:w-4/12 text-left">
+                                <i class="ri-double-quotes-l text-darkYellow text-7xl"></i>
+                                <p class="text-grayWhite text-base opacity-70 font-light">"Dealing with sickle cell has been a lifelong rollercoaster. The thought of my voice being heard in the world of medicine is really what motivated me to join this study. Not only to advocate for myself but” </p>
+                                <h6 class="text-grayWhite text-base font-semibold my-2">Jhony Bravo</h6>
+                                <span class="text-base text-grayWhite font-light">CEO, THEMEFISHER</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- ========team-help-section====== -->
+            <div class="flex items-center justify-between flex-wrap w-full px-8 py-12 lg:p-20 lg:rounded-[3rem] my-12 bg-grayGreen md:text-left rounded-xl text-center">
+                <div class="md:w-1/2 w-full">
+                    <h3 class="lg:text-4xl text-grayWhite font-bold text-xl md:text-2xl">Helping teams in the <br class="lg:block hidden">
+                        world with focus</h3>
+                    <a href="#" class="primary-btn my-2 md:mt-6">Download The Theme</a>
+                </div>
+                <div class="md:w-1/2 w-full">
+                    <p class="text-grayWhite text-sm md:text-base lg:text-lg font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin .</p>
+                </div>
+            </div>
+            <!-- ======footer-section===== -->
+            <footer class="relative overflow-hidden">
+                <hr class="border-grayWhite opacity-30">
+                <div class="flex items-start justify-between flex-wrap mt-16 mb-8 text-center gap-y-6 md:gap-y-6 md:flex-row-reverse">
+                    <div class="lg:w-1/4 w-full md:w-1/2">
+                        <img src="images/footer-logo.png"  class="max-w-[160px] m-auto">
+                        <p class="text-[14px] text-grayWhite opacity-70 mt-3 font-light">Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, 
+                            sed condimentum volutpat. </p>
+                    </div>
+                    <div class="lg:w-1/4 w-full md:w-1/2">
+                        <p class="text-grayWhite text-lg font-medium">Socials</p>
+                        <span class="text-grayWhite text-[14px] font-light opacity-70 my-2 block">themefisher@gmail.com</span>
+                        <div class="flex items-center justify-center space-x-4">
+                            <span class="w-10 h-10 bg-grayWhite dark:bg-grayBlack rounded-full grid items-center justify-center hover:scale-90 duration-300"><i class="ri-facebook-fill text-xl text-darkGreen dark:text-grayWhite"></i></span>
+                            <span class="w-10 h-10 bg-grayWhite dark:bg-grayBlack rounded-full grid items-center justify-center hover:scale-90 duration-300"><i class="ri-twitter-fill text-xl text-darkGreen dark:text-grayWhite"></i></span>
+                            <span class="w-10 h-10 bg-grayWhite dark:bg-grayBlack rounded-full grid items-center justify-center hover:scale-90 duration-300"><i class="ri-linkedin-fill text-xl text-darkGreen dark:text-grayWhite"></i></span>
+                            <span class="w-10 h-10 bg-grayWhite dark:bg-grayBlack rounded-full grid items-center justify-center hover:scale-90 duration-300"><i class="ri-skype-fill text-xl text-darkGreen dark:text-grayWhite"></i></span>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 w-full md:w-1/2">
+                        <p class="text-grayWhite text-lg font-medium">Quick Links</p>
+                        <a href="#" class="text-grayWhite text-[14px] font-light opacity-70 my-2 block hover:opacity-100 duration-300">About</a>
+                        <a href="#" class="text-grayWhite text-[14px] font-light opacity-70 my-2 block hover:opacity-100 duration-300">Category</a>
+                        <a href="#" class="text-grayWhite text-[14px] font-light opacity-70 my-2 block hover:opacity-100 duration-300">Testimonial</a>
+                        <a href="#" class="text-grayWhite text-[14px] font-light opacity-70 my-2 block hover:opacity-100 duration-300">Contact</a>
+                    </div>
+                    <div class="lg:w-1/4 w-full md:w-1/2">
+                        <p class="text-grayWhite text-lg font-medium">Location & Contact</p>
+                        <span class="text-grayWhite text-[14px] font-light opacity-70 my-2 block">2118 Thornridge Cir. Syracuse, <br> Connecticut 35624</span>
+                        <a href="#" class="text-grayWhite text-[14px] font-light opacity-70 my-2 block hover:opacity-100 duration-300">(704) 555-0127</a>
+                    </div>
+                </div>
+                <hr class="border-grayWhite opacity-30">
+                <span class="text-grayWhite text-[12px] font-light opacity-70 italic py-6 block">2023 &cop All Right Copyright Resarved by Hlomberg</span>
+                <img src="images/style (1).png" class="max-w-[200px] absolute -right-12 -bottom-20">
+            </footer>
+        </div>
+    </section>
+    <!-- ====back-to-top==== -->
+    <a href="#body" class="w-10 h-10 rounded-xl bg-darkYellow flex items-center justify-center fixed -bottom-10 right-5 z-10 hover:scale-95 duration-200 dark:bg-grayBlack" data-back-to-top><i class="ri-arrow-up-s-line text-darkGreen text-2xl font-bold dark:text-grayWhite"></i></a>
+    <!-- ====modal-overlay==== -->
+    <div class="fixed z-20 bg-stone-700 w-full h-screen top-0 left-0 opacity-0 invisible duration-200 cursor-pointer" data-overlay></div>
+<!-- =====link-swiper-jss====== -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- =====link-custome-jss====== -->
+<script src="js/script.js"></script>
+</body>
+</html>

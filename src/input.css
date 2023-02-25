@@ -1,0 +1,56 @@
+/* ====import-google-font====== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* ===tailwind-default-===== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    *{
+    @apply m-0 p-0 box-border font-family selection:bg-darkYellow selection:text-white
+    }
+}
+
+@layer components{
+    .link{
+        @apply no-underline xl:text-lg lg:text-grayBlack duration-100 md:hover:border-b-2 border-brightRed hover:pb-1 text-grayWhite text-base dark:lg:text-grayWhite dark:text-grayWhite
+    }
+    .primary-btn{
+        @apply bg-brightRed text-grayWhite md:px-4 md:py-2 rounded-3xl border-2 border-brightRed hover:-translate-y-1 duration-300 inline-block md:text-base text-xs px-3 py-2
+    }
+    .font-family{
+        font-family: 'Poppins', sans-serif;
+    }
+    .swiper .swiper-pagination-bullet-active{
+        @apply bg-darkYellow
+    }
+}
+.fixed-nav{
+    @apply  fixed top-0 left-0 w-full z-30 bg-white px-4 mx-auto sm:px-8 dark:bg-grayBlack
+}
+.back-to-top{
+    @apply bottom-5
+}
+.fixed-menu{
+    @apply fixed scale-100 w-screen sm:w-10/12 md:w-1/2 h-screen left-0 top-0 bg-grayGreen z-30 dark:bg-darkBlack
+}
+.fixed-menu ul{
+    @apply w-full h-screen flex-col justify-center items-center gap-6
+}
+.overlay{
+    @apply opacity-60 visible
+}
+*{
+    scrollbar-width: thin;
+    scrollbar-color:#ffbd2f;
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffbd2f96;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ffbd2f;
+}
